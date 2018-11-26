@@ -24,6 +24,7 @@ namespace myApp
         private static int accountNumberSeed = 1234567890;
 
         private List<Transaction> allTransaction = new List<Transaction>();
+        
         public void MakeDeposit(decimal amount, DateTime date, string note)
         {
             if (amount <= 0)
